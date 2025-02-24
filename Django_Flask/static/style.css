@@ -1,0 +1,59 @@
+/* General Body Styling */
+body {
+    background-color: rgb(230, 196, 86);
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+/* Main Section */
+.main {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 2rem;
+}
+
+/* Image Styling */
+.img img {
+    width: 100%;
+    max-width: 600px;
+    border-radius: 0.5rem;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Custom Button Style */
+.btn-custom {
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 10px 25px;
+    border-radius: 0.7rem;
+    background-image: linear-gradient(rgb(230, 196, 86), rgb(200, 177, 69));
+    border: 2px solid rgb(50, 50, 50);
+    border-bottom: 5px solid rgb(50, 50, 50);
+    box-shadow: 0px 1px 6px 0px rgb(230, 196, 86);
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+}
+
+.btn-custom:hover {
+    transform: scale(1.05);
+}
+
+/* Search Bar (Inline Styling) */
+.search-bar {
+    display: flex;
+    justify-content: center; /* Centers the search bar */
+    margin-bottom: 15px; /* Adds space below the search bar */
+}
+
+.search-bar form {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.links {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body style="margin-top: 35px;">
+    <div class="container">
+        <div class="shadow-lg p-3 mb-5 bg-body-tertiary rounded">
+            <a href="/"><button class="btn-custom">Home</button></a>
+<br><br>
+            <b> Your API Respone :</b>
+            <br>
+            {% if info %}
+            <table class="table">
+                <thead>
+                    <tr>
+                        Account Number :{{ info.accno }}
+                        <br>
+                        Account Name : {{ info.accnm }}
+                        <br>
+                        Account Type : {{ info.acctype }} 
+                        <br>
+                        Balance : {{ info.balance }}
+                    </tr>
+                </thead>
+            </table>
+        {% else %}
+            <p>No account found</p>
+        {% endif %}
+        <br>
+        <p class="alert alert-info fw-bold">
+            📢 <b>Important Note:</b> The account details displayed below are dynamically retrieved from a 
+            <span class="text-primary">Flask REST API</span> that connects to a <span class="text-success">MySQL cloud database</span>.  
+            The data is fetched in real-time, ensuring the latest information is always available. 🔄  
+        </p>
+        </div>
+    </div>
+   
+</body>
+</html>
