@@ -253,38 +253,7 @@ python manage.py runserver      # Port 8000
 Visit `http://127.0.0.1:8000/` to interact with the web interface.
 
 ## 📁 Project Structure
-
-```
-Flask-Django_Project/
-├── django_app/
-│   ├── django_app/
-│   │   ├── __init__.py
-│   │   ├── settings.py
-│   │   ├── urls.py
-│   │   └── wsgi.py
-│   ├── main_app/
-│   │   ├── views.py
-│   │   ├── urls.py
-│   │   └── models.py
-│   ├── templates/
-│   │   ├── index.html
-│   │   ├── Showallfilms.html
-│   │   ├── Showallacc.html
-│   │   └── showAccInfo.html
-│   ├── static/
-│   │   ├── css/
-│   │   └── js/
-│   └── manage.py
-├── flask_apis/
-│   ├── flask_accounts_api.py      # Port 5000
-│   ├── flask_accounts_search.py   # Port 6000
-│   ├── flask_films_api.py         # Port 7000
-│   ├── mysql_config.py
-│   └── mongo_config.py
-├── requirements.txt
-├── README.md
-└── .gitignore
-```
+<img width="364" height="705" alt="image" src="https://github.com/user-attachments/assets/60627ef0-3479-470d-9ab7-016d2dc7b421" />
 
 ## 🔗 API Endpoints
 
@@ -323,7 +292,7 @@ Flask-Django_Project/
 - 📖 **Documentation**: Check this README first
 - 🐛 **Bug Reports**: [Create an Issue](https://github.com/ARONAGENT/Flask-Django_Project/issues)
 - 💡 **Feature Requests**: [Suggest Features](https://github.com/ARONAGENT/Flask-Django_Project/issues)
-- 💬 **Questions**: [Start a Discussion](https://github.com/ARONAGENT/Flask-Django_Project/discussions)
+- 💬 **Questions**: [Start a Discussion](https://github.com/ARONAGENT/Flask-Django_Project/issues)
 
 ### Connect with the Developer
 - **GitHub**: [@ARONAGENT](https://github.com/ARONAGENT)
